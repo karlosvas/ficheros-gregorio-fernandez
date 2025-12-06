@@ -4,6 +4,9 @@
 <!DOCTYPE html>
 <html>
 <style>
+	body {
+		font-family: monospace;
+	}
     .form1 {
     	text-align: center;
         width: 800px;
@@ -26,14 +29,6 @@
 	    padding: 3px;
 	    width: 150px;
 	}
-	.input-dato-grande {
-	    background-color: #f4f4f4;
-	    border: 1px solid #ccc;
-	    width: 150px;
-	    height: 50px;
-	    resize: none;
-	}
-
 </style>
 <head>
 <meta charset="UTF-8">
@@ -86,32 +81,32 @@
                 <table cellpadding="3">
                     <tr>
 	                    <td>DATO1:</td>
-	                    <td><input type="text" name="dato1" class="input-dato"></td>
+	                    <td><input type="text" name="dato" class="input-dato"></td>
                 	</tr>
                 	
 	                <tr>
 	                    <td>DATO2:</td>
-	                    <td><input type="text" name="dato2" class="input-dato"></td>
+	                    <td><input type="text" name="dato" class="input-dato"></td>
 	                </tr>
 	                
 	                <tr>
 	                    <td>DATO3:</td>
-	                    <td><input type="text" name="dato3" class="input-dato"></td>
+	                    <td><input type="text" name="dato" class="input-dato"></td>
 	                </tr>
 	                
 	                <tr>
 	                    <td>DATO4:</td>
-	                    <td><input type="text" name="dato4" class="input-dato"></td>
+	                    <td><input type="text" name="dato" class="input-dato"></td>
 	                </tr>
 	                
 	                <tr>
 	                    <td style="vertical-align: top;">DATO5:</td>
-	                    <td><textarea name="dato5" class="input-dato-grande"></textarea></td>
+	                    <td><textarea name="dato" class="input-dato"></textarea></td>
 	                </tr>
 	                
 	                <tr>
 	                    <td>DATO6:</td>
-	                    <td><input type="text" name="dato6" class="input-dato"></td>
+	                    <td><input type="text" name="dato" class="input-dato"></td>
 	                </tr>
 	            </table>
         	</div>

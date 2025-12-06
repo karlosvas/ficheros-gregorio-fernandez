@@ -19,24 +19,13 @@ public class ServletFich extends HttpServlet {
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		String accion = request.getParameter("accion"); //Para saber que accion se va a realizar (leer o escribir)
-		String tipoSeleccionado = request.getParameter("tipoFichero"); //Para saber el tipo de fichero 
-		
-		//Recojo los datos (del dato1 al dato6)
-		String d1 = request.getParameter("dato1");
-		String d2 = request.getParameter("dato2");
-		String d3 = request.getParameter("dato3");
-		String d4 = request.getParameter("dato4");
-		String d5 = request.getParameter("dato5");
-		String d6 = request.getParameter("dato6");
-		
-		//Para saberr si hay datos o no (true si hay al menos un dato, false si no hay ninguno)
-		boolean hayDatos = (d1 != null && !d1.isEmpty()) || (d2 != null && !d2.isEmpty()) ||
-						   (d3 != null && !d3.isEmpty()) || (d4 != null && !d4.isEmpty()) ||
-						   (d5 != null && !d5.isEmpty()) || (d6 != null && !d6.isEmpty());
-		
-		//Recupero el archivo subido
+		// Saber que accion se va a realizar (leer o escribir)
+		String accion = request.getParameter("accion"); 
+		// Saber el tipo de fichero 
+		String tipoSeleccionado = request.getParameter("tipoFichero"); 
+		// Recojer los datos (del dato1 al dato6)
+		String[] datos = request.getParameterValues("dato");
+		//Recuperar el archivo subido
 		Part filePart = request.getPart("fichero");
 		
 		//Compruebo si se ha subido un archivo o no
@@ -64,11 +53,23 @@ public class ServletFich extends HttpServlet {
             return;
         }
         
+        boolean hayDatos = false;
+        // Comprobamos si hay datos
+        for (String dato: datos) {
+            // Si hay datos terminamos el for
+        	if(!dato.isEmpty()) {
+            	hayDatos = true;
+            	break;
+            }
+        }
+
+        
         // Compruebo si el usuario ha seleccionado la accion leer, si la ha seleccionado, compruebo si ha rellenado datos o no
         // Y si a rellenado datos tiro error
         if ("leer".equals(accion) && hayDatos) {
-        	request.setAttribute("mensajeError", "(*) En modo Lectura no es necesario rellenar los datos.");
-			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
+        	// Vamos el servlet corresponiente a manejar los datos [RDF, XLS, CSV, JSON y XML]
+        	String selectedServlet = String.format("Servlet%s", tipoSeleccionado.toUpperCase());
+			request.getRequestDispatcher(selectedServlet).forward(request, response);
             return;
         }
 
