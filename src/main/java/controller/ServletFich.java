@@ -1,7 +1,8 @@
 package controller;
 
 import java.io.IOException;
-import jakarta.servlet.ServletException;           
+
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.MultipartConfig;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,16 +21,23 @@ public class ServletFich extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Saber que accion se va a realizar (leer o escribir)
-		String accion = request.getParameter("accion"); 
-		// Saber el tipo de fichero 
-		String tipoSeleccionado = request.getParameter("tipoFichero"); 
+		String accion = request.getParameter("accion");
+		// Saber el tipo de fichero
+		String tipoSeleccionado = request.getParameter("tipoFichero");
 		// Recojer los datos (del dato1 al dato6)
 		String[] datos = request.getParameterValues("dato");
 		//Recuperar el archivo subido
 		Part filePart = request.getPart("fichero");
-		
+
+		// Validar que se haya seleccionado un tipo de fichero
+		if(tipoSeleccionado == null || tipoSeleccionado.trim().isEmpty()) {
+			request.setAttribute("mensajeError", "(*) Error: Debe seleccionar un tipo de fichero.");
+			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
+            return;
+		}
+
 		//Compruebo si se ha subido un archivo o no
-		if(filePart == null || filePart.getSize() == 0) { 
+		if(filePart == null || filePart.getSize() == 0 || filePart.getSubmittedFileName() == null || filePart.getSubmittedFileName().trim().isEmpty()) {
 			request.setAttribute("mensajeError", "(*) Error: Debe seleccionar un archivo.");
 			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
             return;
@@ -52,36 +60,42 @@ public class ServletFich extends HttpServlet {
             request.getRequestDispatcher("Error.jsp").forward(request, response);
             return;
         }
-        
+
         boolean hayDatos = false;
-        // Comprobamos si hay datos
-        for (String dato: datos) {
-            // Si hay datos terminamos el for
-        	if(!dato.isEmpty()) {
-            	hayDatos = true;
-            	break;
+        // Comprobamos si hay datos (validar que datos no sea null)
+        if(datos != null) {
+            for (String dato: datos) {
+                // Si hay datos terminamos el for
+                if(dato != null && !dato.trim().isEmpty()) {
+                    hayDatos = true;
+                    break;
+                }
             }
         }
 
-        
-        // Compruebo si el usuario ha seleccionado la accion leer, si la ha seleccionado, compruebo si ha rellenado datos o no
-        // Y si a rellenado datos tiro error
+        // Compruebo si el usuario ha seleccionado la accion leer con datos rellenados (error)
         if ("leer".equals(accion) && hayDatos) {
-        	// Vamos el servlet corresponiente a manejar los datos [RDF, XLS, CSV, JSON y XML]
-        	String selectedServlet = String.format("Servlet%s", tipoSeleccionado.toUpperCase());
-			request.getRequestDispatcher(selectedServlet).forward(request, response);
+        	request.setAttribute("mensajeError", "(*) En modo Lectura NO debe rellenar los datos.");
+			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
             return;
         }
 
-        // Igual que antes, pero si no hay datos tiro error
+        // Compruebo si el usuario ha seleccionado la accion escribir sin datos (error)
         if ("escribir".equals(accion) && !hayDatos) {
         	request.setAttribute("mensajeError", "(*) En modo Escritura es obligatorio rellenar los datos.");
 			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
             return;
         }
-        
-        // Pasado todo esto, no deberia de haber errores
-        response.getWriter().append("<h1>Todo bien, todo correcto y yo que me alegro</h1>"); //Borrar esto despues 
+
+        // Si pasamos todas las validaciones, redirigimos al servlet correspondiente
+        // Pasar los atributos necesarios para que los otros servlets puedan acceder
+        request.setAttribute("accion", accion);
+        request.setAttribute("filePart", filePart);
+        request.setAttribute("nombreArchivo", nombreArchivo);
+        request.setAttribute("datos", datos);
+
+        String selectedServlet = String.format("Servlet%s", tipoSeleccionado.toUpperCase());
+		request.getRequestDispatcher(selectedServlet).forward(request, response);
 
 	}
 }

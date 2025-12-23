@@ -7,8 +7,10 @@
 <style>
     body { 
     	font-family: sans-serif; 
-    	text-align: center; 
-    	padding-top: 50px; 
+    	display: flex;
+      	justify-content: center;
+      	align-items: center;
+      	min-height: 100vh;
     }
     .caja-error { 
     	border: 2px solid red; 
