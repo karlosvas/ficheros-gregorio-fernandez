@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <h1>Datos procesados del formato: <%= request.getParameter("tipo") != null ? request.getParameter("tipo") : "Ninguno" %></h1>
+    <h1>Datos procesados del formato: <%= request.getAttribute("tipo") != null ? request.getAttribute("tipo") : "Ninguno" %></h1>
 
     <div class="caja-datos">
         <%

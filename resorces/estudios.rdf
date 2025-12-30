@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:foaf1="http://w3id.org/roh/mirror/foaf#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:roh="http://w3id.org/roh#"
+  xmlns:uc="http://datos.unican.es/ontologias/ontoUC#"
+  xmlns:vivo="http://w3id.org/roh/mirror/vivo#">
+  <rdf:Description rdf:nodeID="Nfe4f5b860131451087fbb5479f60d312">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2026-03-21T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-MC3-013  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-MC3-013</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Financiación Sostenible</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>2.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>150</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/09/2025 al 12/10/2025</uc:Enrollment>
+    <uc:Grant>26 becas de 300,00 € financiadas por: Fundación UCEIF.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N54a6d5e6913244d9954fe9a1b544b058"/>
+    <uc:EnrollmentMonetaryAmount>300.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1026"/>
+    <uc:Preregistration>Del 01/07/2025 al 21/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-MA3-046  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-MA3-046</vivo:identifier>
+    <roh:title>Master de Formación Permanente en Comercio Internacional, Transporte y Logística</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>36.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>24.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 06/10/2025 al 13/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 6000,00 € financiadas por: Unidad Organizadora.; 1 beca de 4500,00 € financiada por: ClDN.; 1 beca de 6000,00 € financiada por: Autoridad Portuaria de Santander.; 2 becas de 2000,00 € financiadas por: Autoridad Portuaria de Santander.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N64b7baa286204489a99e192d50eb6570"/>
+    <uc:EnrollmentMonetaryAmount>6000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.transcom.unican.es"/>
+    <uc:Preregistration>Del 11/06/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-ES3-020  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-ES3-020</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Derecho de Familia (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>14.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>16.00</uc:PracticalCredits>
+    <vivo:courseCredits>30.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/10/2025 al 14/10/2025</uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N67b74ac2f90b4ff18781fcf90d539e72"/>
+    <uc:EnrollmentMonetaryAmount>1175.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1041"/>
+    <uc:Preregistration>Del 01/07/2025 al 05/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/26-MA3-005  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>26-MA3-005</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Gestión del Negocio Marítimo y Logística Asociada</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ciencias y Técnicas de la Navegación y de la Construcción Naval                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>19.30</uc:TheoreticalCredits>
+    <uc:PracticalCredits>34.70</uc:PracticalCredits>
+    <vivo:courseCredits>54.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 26/09/2025 al 30/09/2025</uc:Enrollment>
+    <uc:Grant>5 becas de 1000,00 € financiadas por: Unidad Organizadora.; 10 becas de 1000,00 € financiadas por: Bergé Infraestructuras y Servicios Logísticos.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N2e07dd67a53a433fac865603bb250d62"/>
+    <uc:EnrollmentMonetaryAmount>3000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.shipping.unican.es"/>
+    <uc:Preregistration>Del 16/06/2025 al 15/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-EX3-013  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-EX3-013</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en la Administración de las Sociedades de Garantía Reciproca</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 20/09/2025 al 30/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N74e2b6c71b5b47ab85f386b8563fc2a9"/>
+    <uc:EnrollmentMonetaryAmount>300.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1037"/>
+    <uc:Preregistration>Del 01/09/2025 al 17/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-EX3-010  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-EX3-010</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Diseño y Validación de Nuevos Modelos de Negocio</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>5.85</uc:TheoreticalCredits>
+    <uc:PracticalCredits>16.15</uc:PracticalCredits>
+    <vivo:courseCredits>22.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>100</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 19/01/2026 al 25/01/2026</uc:Enrollment>
+    <uc:Grant>5 becas de 150,00 € financiadas por: Unidad Organizadora.; 2 becas de 300,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nc90ec44753f74fa4a224b8ce95bc2891"/>
+    <uc:EnrollmentMonetaryAmount>600.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://masterenemprendimiento.cise.es/experto-validacion/"/>
+    <uc:Preregistration>Del 01/07/2025 al 11/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-041  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-041</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión Farmacéutica y Relaciones con los Usuarios. Ordenación, Planificación e Inspección</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.20</uc:TheoreticalCredits>
+    <uc:PracticalCredits>3.30</uc:PracticalCredits>
+    <vivo:courseCredits>5.50</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 10/03/2026 al 12/03/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N97888744d1334a749105c87c9fe6c539"/>
+    <uc:EnrollmentMonetaryAmount>266.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 02/03/2026 al 05/03/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/41-EX3-023  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>41-EX3-023</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Protección a la Infancia y a la Adolescencia</roh:title>
+    <roh:AdministrativeEntity>Facultad de Educación                                                                                                                                                                                   </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>19.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>19.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>15</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 02/10/2025 al 09/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 400,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N2e68ba408ec94430a62673a3fa69f078"/>
+    <uc:EnrollmentMonetaryAmount>800.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1067"/>
+    <uc:Preregistration>Del 01/07/2025 al 16/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-EX3-025  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-EX3-025</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto Gestión de la Edificación (Hibrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>9.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>11.00</uc:PracticalCredits>
+    <vivo:courseCredits>20.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 09/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1000,00 € financiadas por: Unidad Organizadora.; 4 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N3a9b38905acd44468169a148d48b69bc"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-FC3-047  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-FC3-047</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente en Comercio Internacional y Transporte Del 14/10/2025 al 30/09/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>32.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>8.00</uc:PracticalCredits>
+    <vivo:courseCredits>40.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 06/10/2025 al 13/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 2400,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd750a2040d684c6e9f177308faf0ac9f"/>
+    <uc:EnrollmentMonetaryAmount>2400.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.transcom.unican.es"/>
+    <uc:Preregistration>Del 26/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/42-MC3-017  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>42-MC3-017</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Introducción a la Realidad Extendida</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Ingenieros Industriales y de Telecomunicación</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>0.40</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.60</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 08/09/2025 al 18/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Ne8ed1ff1b1d047c4ac6d980d6905bc08"/>
+    <uc:EnrollmentMonetaryAmount>23.82</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=963"/>
+    <uc:Preregistration>Del 26/05/2025 al 29/08/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-042  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-042</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión de la Provisión de Servicios Sanitarios (I)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.60</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.40</uc:PracticalCredits>
+    <vivo:courseCredits>6.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>12</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 21/04/2026 al 23/04/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nef72e71c4562429b8d7c63a5a5e7d928"/>
+    <uc:EnrollmentMonetaryAmount>290.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 13/04/2026 al 16/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/25-ES3-025  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>25-ES3-025</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Contabilidad Financiera y Directiva</roh:title>
+    <roh:AdministrativeEntity>Departamento de Administración de Empresas                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>14.40</uc:TheoreticalCredits>
+    <uc:PracticalCredits>33.60</uc:PracticalCredits>
+    <vivo:courseCredits>48.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 19/05/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Grant>3 becas de 1497,50 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Naa05656276c94331be5068158130dbce"/>
+    <uc:EnrollmentMonetaryAmount>2995.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://mastercontabilidad.unican.es"/>
+    <uc:Preregistration>Del 19/05/2025 al 31/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-ES3-044  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-ES3-044</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Gestión y Dirección de Servicios Sanitarios</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>7.85</uc:TheoreticalCredits>
+    <uc:PracticalCredits>22.15</uc:PracticalCredits>
+    <vivo:courseCredits>30.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 10/03/2026 al 12/03/2026</uc:Enrollment>
+    <uc:Grant>2 becas de 1450,00 € financiadas por: Beca Servicio Cántabro de Empleo.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N4c7f995287554159ba2e6ad8085cbba6"/>
+    <uc:EnrollmentMonetaryAmount>1450.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://madgs.es"/>
+    <uc:Preregistration>Del 26/05/2025 al 05/03/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-FC3-018  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-FC3-018</vivo:identifier>
+    <roh:title>Certificado Universitario de Formación Permanente en Derecho de la Unión Europea y Acción Exterior Del 27/10/2025 al 30/06/2026</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>5.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>75</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 20/10/2025 al 24/10/2025</uc:Enrollment>
+    <uc:Grant>40 becas de 400,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nb03e238331134549bf424342b5411dbd"/>
+    <uc:EnrollmentMonetaryAmount>500.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1031"/>
+    <uc:Preregistration>Del 29/09/2025 al 15/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-021  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-021</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Quimiqueros Del 13/11/2025 al 13/11/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Quimiqueros Del 05/02/2026 al 05/02/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Quimiqueros Del 14/05/2026 al 14/05/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>1.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>45</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 30/10/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N5c86a7dd0c6547f986a77a3e923e34a4"/>
+    <vivo:DateTimeInterval rdf:nodeID="N1d724ea628b043368a3a44168ad537d8"/>
+    <vivo:DateTimeInterval rdf:nodeID="N05d7c880375949e4b9bc760db746c884"/>
+    <uc:EnrollmentMonetaryAmount>60.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/actualizacion-cursos.aspx"/>
+    <uc:Preregistration>Del 23/10/2025 al 27/10/2025</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MC3-029  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MC3-029</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Violencia Doméstica y de Género</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.00</uc:PracticalCredits>
+    <vivo:courseCredits>4.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/01/2026 al 30/01/2026</uc:Enrollment>
+    <uc:Grant>3 becas de 100,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nef8608692cfc4d9bbdb293e07840ae5d"/>
+    <uc:EnrollmentMonetaryAmount>300.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1048"/>
+    <uc:Preregistration>Del 01/07/2025 al 25/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MA3-016  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MA3-016</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Derecho de Comercio y Consumo (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>31.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>28.50</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 26/10/2025</uc:Enrollment>
+    <uc:Grant>3 becas de 2000,00 € financiadas por: Gobierno Regional de Cantabria.; 2 becas de 1000,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N7c0db35e9cf842a29d4c149ea242c40e"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1036"/>
+    <uc:Preregistration>Del 14/07/2025 al 01/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-MA3-008  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-MA3-008</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Innovación y Emprendimiento</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>11.87</uc:TheoreticalCredits>
+    <uc:PracticalCredits>48.13</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>100</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 12/09/2025 al 19/09/2025</uc:Enrollment>
+    <uc:Grant>5 becas de 347,50 € financiadas por: Unidad Organizadora.; 2 becas de 695,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N01918b9e1a4041ba9dc81124ef4a1e8d"/>
+    <uc:EnrollmentMonetaryAmount>1390.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://masterenemprendimiento.cise.es/"/>
+    <uc:Preregistration>Del 01/07/2025 al 05/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/43-EX3-008  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>43-EX3-008</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Energías Renovables</roh:title>
+    <roh:AdministrativeEntity>Escuela Politécnica de Ingeniería de Minas y Energía</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>18.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>9.00</uc:PracticalCredits>
+    <vivo:courseCredits>27.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>15</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 02/10/2025 al 06/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nd32722982c7944fca73d7041a5fc83c3"/>
+    <uc:EnrollmentMonetaryAmount>1800.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/minas/master-en-energias-renovables-y-gestion-energetica-(semipresencial)"/>
+    <uc:Preregistration>Del 16/06/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6effb43cd79648619644b7f4d5c6d657">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2026-08-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/99-MA3-021  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>99-MA3-021</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Dirección de Hoteles y Empresas Turísticas</roh:title>
+    <roh:AdministrativeEntity>Escuela Universitaria de Turismo Altamira                                                                                                                                                               </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>23.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>23.00</uc:PracticalCredits>
+    <vivo:courseCredits>46.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment></uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nc5da34c914c14e57a29bd1d49abdd8d6"/>
+    <uc:EnrollmentMonetaryAmount>990.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://euturismoaltamira.com"/>
+    <uc:Preregistration></uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-MA3-029  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-MA3-029</vivo:identifier>
+    <roh:title>Master de Formación Permanente en Gestión y Planificación de Centros y Servicios de Atención a la Dependencia</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>22.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>38.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>15</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 22/10/2025</uc:Enrollment>
+    <uc:Grant>10 becas de 1500,00 € financiadas por: Cámara de Comercio de Cantabria.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N6fb4592ebe0e431f9112a682009fa8c9"/>
+    <uc:EnrollmentMonetaryAmount>3000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1054"/>
+    <uc:Preregistration>Del 11/06/2025 al 08/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-MA3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-MA3-022</vivo:identifier>
+    <roh:title>Máster Internacional de Formación Permanente UC-UIMP en Tecnología Rehabilitación y Gestión de la Edificación (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>30.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/10/2025 al 13/10/2025</uc:Enrollment>
+    <uc:Grant>12 becas de 2400,00 € financiadas por: Unidad Organizadora.; 3 becas de 3000,00 € financiadas por: Unidad Organizadora.; 1 beca de 4200,00 € financiada por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nca89b00672bd49be8865dc96d752543a"/>
+    <uc:EnrollmentMonetaryAmount>6000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 30/04/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-037  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-037</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Economía de la Salud</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.35</uc:TheoreticalCredits>
+    <uc:PracticalCredits>3.15</uc:PracticalCredits>
+    <vivo:courseCredits>5.50</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 16/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nac1da4e8b44d4389bf9d68dd24fd6e0e"/>
+    <uc:EnrollmentMonetaryAmount>266.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://madgs.es"/>
+    <uc:Preregistration>Del 06/10/2025 al 09/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-017  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-017</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Renovación de Tarjetas Profesionales de la Marina Mercante Del 13/10/2025 al 24/10/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Renovación de Tarjetas Profesionales de la Marina Mercante Del 23/02/2026 al 06/03/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Renovación de Tarjetas Profesionales de la Marina Mercante Del 11/05/2026 al 22/05/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>100</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 02/10/2025 al 03/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 12/02/2026 al 13/02/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N054dcf383c5f4a5f89fed09e15de4d97"/>
+    <vivo:DateTimeInterval rdf:nodeID="Nadc8e112638e468fa3d826470f1553ca"/>
+    <vivo:DateTimeInterval rdf:nodeID="N86bb68562bce4659a02fb2665489a311"/>
+    <uc:EnrollmentMonetaryAmount>240.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/revalidacion-de-tarjetas-profesionales.aspx"/>
+    <uc:Preregistration>Del 25/09/2025 al 29/09/2025</uc:Preregistration>
+    <uc:Preregistration>Del 05/02/2026 al 09/02/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9139b16ef1a44600a506469eb4c0598d">
+    <vivo:start>2026-05-11T00:00:00</vivo:start>
+    <vivo:end>2026-05-11T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-MC3-028  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-MC3-028</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en MARPOL 73/78: Herramientas de Simulación de Seguimiento de Derrames en el Mar</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.00</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 17/09/2025 al 24/09/2025</uc:Enrollment>
+    <uc:Grant>15 becas de 300,00 € financiadas por: Banco de Santander.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd09e7ad48dbf412fa070c32b6edca3d6"/>
+    <uc:EnrollmentMonetaryAmount>340.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=992"/>
+    <uc:Preregistration>Del 16/06/2025 al 10/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-MA3-001  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-MA3-001</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Banca y Mercados Financieros (Edición España)</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>29.60</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.40</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 08/09/2025 al 12/09/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 7500,00 € financiadas por: Fundación UCEIF.; 4 becas de 7500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd2b00d16bdb94c2b8808cdbd12a95611"/>
+    <uc:EnrollmentMonetaryAmount>12500.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://grupos.unican.es/masterbanca"/>
+    <uc:Preregistration>Del 01/07/2025 al 03/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-EX3-019  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-EX3-019</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto Rehabilitación, Regeneración Urbana y Eficiencia Energética</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>9.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>11.00</uc:PracticalCredits>
+    <vivo:courseCredits>20.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 09/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1000,00 € financiadas por: Unidad Organizadora.; 4 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N68136eeac15a494a85b62ad0e76fd7ef"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/25-MA3-024  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>25-MA3-024</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Contabilidad Avanzada</roh:title>
+    <roh:AdministrativeEntity>Departamento de Administración de Empresas                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>18.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>42.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 19/05/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Grant>3 becas de 1997,50 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N7fee079466f04d77aa484237afb69b64"/>
+    <uc:EnrollmentMonetaryAmount>3995.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://mastercontabilidad.unican.es"/>
+    <uc:Preregistration>Del 19/05/2025 al 31/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-014  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-014</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Patología y Rehabilitación de la Edificación Del 18/02/2026 al 03/06/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 18/02/2026 al 18/02/2026</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N8a5c51aef767491d81e76be2ee144061"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 16/09/2025 al 16/02/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MC3-024  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MC3-024</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Derecho de Familia Internacional</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.50</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 07/01/2026 al 08/01/2026</uc:Enrollment>
+    <uc:Grant>3 becas de 100,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N749b7b5417d544e69c86cec8fda8b745"/>
+    <uc:EnrollmentMonetaryAmount>200.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1046"/>
+    <uc:Preregistration>Del 01/07/2025 al 17/12/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-020  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-020</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Petroleros Del 11/11/2025 al 11/11/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Petroleros Del 03/02/2026 al 03/02/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Petroleros Del 12/05/2026 al 12/05/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>1.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>45</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 30/10/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N7b235c8b1b5a4a37903f8141b98d868e"/>
+    <vivo:DateTimeInterval rdf:nodeID="N5c8e3d99f3714dc981bbf1c4032530c5"/>
+    <vivo:DateTimeInterval rdf:nodeID="N67ce322bfa974947bdf1e86549c573b6"/>
+    <uc:EnrollmentMonetaryAmount>60.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/actualizacion-cursos.aspx"/>
+    <uc:Preregistration>Del 23/10/2025 al 27/10/2025</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-MC3-011  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-MC3-011</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Metodologías de Investigación en Ciencias Empresariales</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.30</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.70</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/12/2025 al 15/12/2025</uc:Enrollment>
+    <uc:Grant>20 becas de 350,00 € financiadas por: Banco de Santander.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Ne11cd1d4d9a44ab1b70f523794a3e875"/>
+    <uc:EnrollmentMonetaryAmount>350.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1030"/>
+    <uc:Preregistration>Del 17/11/2025 al 28/11/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-043  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-043</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión de la Provisión de Servicios Sanitarios (II)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.05</uc:TheoreticalCredits>
+    <uc:PracticalCredits>4.45</uc:PracticalCredits>
+    <vivo:courseCredits>6.50</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 26/05/2026 al 28/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nf37be46930e6433f8422bc82a3a3ec83"/>
+    <uc:EnrollmentMonetaryAmount>314.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 18/05/2026 al 21/05/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/99-EX3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>99-EX3-022</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Marketing Digital y Revenue Management</roh:title>
+    <roh:AdministrativeEntity>Escuela Universitaria de Turismo Altamira                                                                                                                                                               </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/09/2025 al 03/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N6039a688460144cba30071d7d80162e0"/>
+    <uc:EnrollmentMonetaryAmount>140.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://euturismoaltamira.com"/>
+    <uc:Preregistration>Del 02/06/2025 al 19/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-ES3-019  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-ES3-019</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Derecho de Familia (Híbrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>14.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>16.00</uc:PracticalCredits>
+    <vivo:courseCredits>30.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/10/2025 al 14/10/2025</uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nfe4f5b860131451087fbb5479f60d312"/>
+    <uc:EnrollmentMonetaryAmount>1175.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1040"/>
+    <uc:Preregistration>Del 01/07/2025 al 05/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-MA3-028  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-MA3-028</vivo:identifier>
+    <roh:title>Master de Formación Permanente en Tributación</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>29.40</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.60</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>35</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 27/10/2025 al 05/11/2025</uc:Enrollment>
+    <uc:Grant>10 becas de 1997,50 € financiadas por: Agencia Cántabra de Administración Tributaria.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N4346c846d0634ac7a487b2912d8f6df9"/>
+    <uc:EnrollmentMonetaryAmount>3995.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.tributacion.unican.es"/>
+    <uc:Preregistration>Del 11/06/2025 al 17/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/28-ES3-019  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>28-ES3-019</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Cuidados y Curas de Heridas Crónicas (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Enfermería                                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>28.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>4.00</uc:PracticalCredits>
+    <vivo:courseCredits>32.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>55</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 08/09/2025 al 19/09/2025</uc:Enrollment>
+    <uc:Grant>15 becas de 200,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nf496c17cbdf7441f9abb8f16078e70ea"/>
+    <uc:EnrollmentMonetaryAmount>600.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudiantesuc/estudiantes-de-estudios-propios"/>
+    <uc:Preregistration>Del 01/07/2025 al 02/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne11cd1d4d9a44ab1b70f523794a3e875">
+    <vivo:start>2026-02-02T00:00:00</vivo:start>
+    <vivo:end>2026-05-29T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-015  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-015</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Regeneración Urbana y Eficiencia Energética en la Edificación Del 15/10/2025 al 28/01/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 09/10/2025</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Ne6ada2f552f147c89c473b6a45d63a9e"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N86bb68562bce4659a02fb2665489a311">
+    <vivo:start>2026-05-11T00:00:00</vivo:start>
+    <vivo:end>2026-05-22T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8fd3ed383fb4f0c800c5c52e2048c5a">
+    <vivo:start>2025-11-08T00:00:00</vivo:start>
+    <vivo:end>2025-12-13T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N543b4025e9aa44d3917f7f5ffad3bdf6">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82c22fa53df54f09b274b8ed0cddc005">
+    <vivo:start>2025-10-27T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/32-FC3-013  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>32-FC3-013</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente de Desarrollo e Industria del Videojuego PlayStation Talents Del 03/10/2025 al 21/03/2026</roh:title>
+    <roh:AdministrativeEntity>Facultad de Ciencias                                                                                                                                                                                    </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>6.68</uc:TheoreticalCredits>
+    <uc:PracticalCredits>22.32</uc:PracticalCredits>
+    <vivo:courseCredits>29.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 25/09/2025 al 02/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N3d708bbef5774c08adfae8c3bf08e083"/>
+    <uc:EnrollmentMonetaryAmount>50.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1101"/>
+    <uc:Preregistration>Del 01/04/2025 al 19/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/25-MA3-018  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>25-MA3-018</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Dirección de Recursos Humanos: el Valor de las Personas</roh:title>
+    <roh:AdministrativeEntity>Departamento de Administración de Empresas                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>30.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 08/10/2025 al 15/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N8ec1ff08365c40af9890d512049e0f0e"/>
+    <uc:EnrollmentMonetaryAmount>4500.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://masterrecursoshumanos.unican.es"/>
+    <uc:Preregistration>Del 26/05/2025 al 05/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MC3-023  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MC3-023</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Derecho de Familia Internacional</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.50</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 07/01/2026 al 08/01/2026</uc:Enrollment>
+    <uc:Grant>3 becas de 100,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N3e38b57f4c054b1bad4a077281c8429e"/>
+    <uc:EnrollmentMonetaryAmount>200.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1045"/>
+    <uc:Preregistration>Del 01/07/2025 al 17/12/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-FC3-048  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-FC3-048</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente en Logística Del 14/10/2025 al 30/09/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>10.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>4.00</uc:PracticalCredits>
+    <vivo:courseCredits>14.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 06/10/2025 al 13/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1700,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N35b240b158324d9bbffbf48f41ef52d7"/>
+    <uc:EnrollmentMonetaryAmount>1700.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.transcom.unican.es"/>
+    <uc:Preregistration>Del 26/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c105133daf74dd1aaac506b73a4ea58">
+    <vivo:start>2025-10-06T00:00:00</vivo:start>
+    <vivo:end>2026-05-29T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MA3-018  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MA3-018</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Derecho de Familia y Menores (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>24.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>36.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment></uc:Enrollment>
+    <uc:Grant>15 becas de 1175,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N6effb43cd79648619644b7f4d5c6d657"/>
+    <uc:EnrollmentMonetaryAmount>2350.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1039"/>
+    <uc:Preregistration></uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-EX3-004  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-EX3-004</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Banca y Finanzas</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.20</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.90</uc:PracticalCredits>
+    <vivo:courseCredits>6.10</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 08/09/2025 al 12/09/2025</uc:Enrollment>
+    <uc:Grant>18 becas de 875,00 € financiadas por: FUNDACIÓN UCEIF.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd55a085f30704a72bc1667340e5e6d0e"/>
+    <uc:EnrollmentMonetaryAmount>875.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1001"/>
+    <uc:Preregistration>Del 01/07/2025 al 03/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-040  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-040</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión de la Investigación en Salud. Salud Pública</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.25</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.25</uc:PracticalCredits>
+    <vivo:courseCredits>6.50</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 10/02/2026 al 12/02/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N43a7bc3900da46849445ab7f7050735b"/>
+    <uc:EnrollmentMonetaryAmount>314.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 02/02/2026 al 05/02/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-ES3-021  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-ES3-021</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Derecho de Menores (Híbrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>16.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>14.00</uc:PracticalCredits>
+    <vivo:courseCredits>30.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/01/2026 al 30/01/2026</uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N1e8e13c0a89e4ab2950ea2b0d3ee67b7"/>
+    <uc:EnrollmentMonetaryAmount>1175.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1042"/>
+    <uc:Preregistration>Del 01/07/2025 al 25/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35b240b158324d9bbffbf48f41ef52d7">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/99-MC3-023  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>99-MC3-023</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Inteligencia Artificial Aplicada al Turismo</roh:title>
+    <roh:AdministrativeEntity>Escuela Universitaria de Turismo Altamira                                                                                                                                                               </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.00</uc:PracticalCredits>
+    <vivo:courseCredits>2.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>15</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 22/09/2025 al 26/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N37701b77c02a400188308b8112de6ef3"/>
+    <uc:EnrollmentMonetaryAmount>140.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://euturismoaltamira.com"/>
+    <uc:Preregistration>Del 02/06/2025 al 12/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/43-EX3-007  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>43-EX3-007</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión Energética</roh:title>
+    <roh:AdministrativeEntity>Escuela Politécnica de Ingeniería de Minas y Energía</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>18.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>9.00</uc:PracticalCredits>
+    <vivo:courseCredits>27.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>15</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 02/10/2025 al 06/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Na3750b09688e401d9a8fdcc3da70c3ec"/>
+    <uc:EnrollmentMonetaryAmount>1800.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/minas/master-en-energias-renovables-y-gestion-energetica-(semipresencial)"/>
+    <uc:Preregistration>Del 16/06/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/41-MC3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>41-MC3-022</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Competencias Digitales para Maestros/as</roh:title>
+    <roh:AdministrativeEntity>Facultad de Educación                                                                                                                                                                                   </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.50</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 10/10/2025 al 30/10/2025</uc:Enrollment>
+    <uc:Grant>20 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Neddb0e2657294c328926c0b4d6996735"/>
+    <uc:EnrollmentMonetaryAmount>300.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://competencias-digitales.unican.es"/>
+    <uc:Preregistration>Del 01/07/2025 al 06/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-024  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-024</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente BIM y Gestión del Proceso Edificatorio Del 16/10/2025 al 29/01/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 09/10/2025</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nebac83d4e6a340f1a2bc79fd442fc3bc"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-EX3-020  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-EX3-020</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto Tecnología de la Edificación</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>9.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>11.00</uc:PracticalCredits>
+    <vivo:courseCredits>20.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 07/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1000,00 € financiadas por: Unidad Organizadora.; 4 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd183b9462f0a4daf88e05551d40e156a"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-038  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-038</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Derecho Sanitario</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.00</uc:PracticalCredits>
+    <vivo:courseCredits>6.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 04/11/2025 al 06/11/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Ne8fd3ed383fb4f0c800c5c52e2048c5a"/>
+    <uc:EnrollmentMonetaryAmount>290.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 27/10/2025 al 30/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N722f720bf4024f8b8da7de303477ce5c">
+    <vivo:start>2026-01-31T00:00:00</vivo:start>
+    <vivo:end>2026-05-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-019  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-019</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Sistema de Información y Visualización de Cartas Electrónicas (SIVCE/ECDIS) Del 25/05/2026 al 29/05/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Sistema de Información y Visualización de Cartas Electrónicas (SIVCE/ECDIS) Del 02/02/2026 al 06/02/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.20</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.80</uc:PracticalCredits>
+    <vivo:courseCredits>4.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>9</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 14/05/2026 al 15/05/2026</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N2f71b0150b8e45b2a27f068545be77cd"/>
+    <vivo:DateTimeInterval rdf:nodeID="Nc8bdb061f8f34f93888f12e774c43682"/>
+    <uc:EnrollmentMonetaryAmount>526.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/ecdis.aspx"/>
+    <uc:Preregistration>Del 07/05/2026 al 11/05/2026</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-MA3-045  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-MA3-045</vivo:identifier>
+    <roh:title>Master de Formación Permanente en Gestión y Dirección de Servicios Sanitarios</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>22.05</uc:TheoreticalCredits>
+    <uc:PracticalCredits>37.95</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>23</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 16/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1100,00 € financiadas por: Unidad Organizadora.; 10 becas de 1818,18 € financiadas por: Consejería de Sanidad.; 1 beca de 1818,20 € financiada por: Consejería de Sanidad.; 2 becas de 2500,00 € financiadas por: Consejería de Sanidad.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N67cc4f27bdd14757944ad8d9da70c86c"/>
+    <uc:EnrollmentMonetaryAmount>2900.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 11/06/2025 al 08/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MA3-014  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MA3-014</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Mediación y Gestión de Conflictos</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>30.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 26/10/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 1000,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N82c22fa53df54f09b274b8ed0cddc005"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1034"/>
+    <uc:Preregistration>Del 14/07/2025 al 01/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/10-EX3-039  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>10-EX3-039</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Gestión de Contratación, Recursos Humanos, Presupuestos y Procedimientos Administrativos</roh:title>
+    <roh:AdministrativeEntity>Departamento de Economía                                                                                                                                                                                </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.60</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.40</uc:PracticalCredits>
+    <vivo:courseCredits>6.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>10</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 15/12/2025 al 17/12/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N732ab8f01cc84549bc9e8ec57d8e91d0"/>
+    <uc:EnrollmentMonetaryAmount>290.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="http://www.madgs.es"/>
+    <uc:Preregistration>Del 09/12/2025 al 11/12/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MA3-017  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MA3-017</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Derecho de Familia y Menores (Híbrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>24.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>36.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/10/2025 al 14/10/2025</uc:Enrollment>
+    <uc:Grant>15 becas de 1175,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Na56aa6607c9e43b595780f6b1e508d05"/>
+    <uc:EnrollmentMonetaryAmount>2350.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1038"/>
+    <uc:Preregistration>Del 01/07/2025 al 05/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MC3-028  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MC3-028</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Violencia Doméstica y de Género</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>3.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.00</uc:PracticalCredits>
+    <vivo:courseCredits>4.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/01/2026 al 30/01/2026</uc:Enrollment>
+    <uc:Grant>3 becas de 100,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N4ab46583d74247a7bf5b11ee1e4e02d3"/>
+    <uc:EnrollmentMonetaryAmount>300.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1047"/>
+    <uc:Preregistration>Del 01/07/2025 al 25/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54a6d5e6913244d9954fe9a1b544b058">
+    <vivo:start>2025-10-13T00:00:00</vivo:start>
+    <vivo:end>2025-12-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ab46583d74247a7bf5b11ee1e4e02d3">
+    <vivo:start>2026-01-31T00:00:00</vivo:start>
+    <vivo:end>2026-02-27T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/43-MA3-009  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>43-MA3-009</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Energías Renovables y Gestión Energética</roh:title>
+    <roh:AdministrativeEntity>Escuela Politécnica de Ingeniería de Minas y Energía</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>36.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>24.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>25</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 02/10/2025 al 06/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N5f77c1b37cdc4671a84e692f0569541e"/>
+    <uc:EnrollmentMonetaryAmount>3600.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/minas/master-en-energias-renovables-y-gestion-energetica-(semipresencial)"/>
+    <uc:Preregistration>Del 16/06/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc5da34c914c14e57a29bd1d49abdd8d6">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-017  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-017</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Tecnología de Estructuras de Edificación Del 14/10/2025 al 27/01/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 03/10/2025 al 07/10/2025</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nfb169d85849748d182d9cb3b61d7866f"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 02/05/2025 al 30/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/35-ES3-058  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>35-ES3-058</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización BIM Manager en Ingeniería Civil</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos                                                                                                                                    </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>10.24</uc:TheoreticalCredits>
+    <uc:PracticalCredits>21.76</uc:PracticalCredits>
+    <vivo:courseCredits>32.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 25/09/2025 al 05/10/2025</uc:Enrollment>
+    <uc:Grant>8 becas de 1500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Ne233a17b89ca4964bd6b51c7f0f42872"/>
+    <uc:EnrollmentMonetaryAmount>3840.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.bimcaminos.unican.es"/>
+    <uc:Preregistration>Del 01/07/2025 al 19/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d708bbef5774c08adfae8c3bf08e083">
+    <vivo:start>2025-10-03T00:00:00</vivo:start>
+    <vivo:end>2026-03-21T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd1c0601b169d416298cf93ea6689e8b8">
+    <vivo:start>2025-10-01T00:00:00</vivo:start>
+    <vivo:end>2027-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-MA3-015  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-MA3-015</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Derecho de Comercio y Consumo (Híbrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>31.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>28.50</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/10/2025 al 26/10/2025</uc:Enrollment>
+    <uc:Grant>3 becas de 2000,00 € financiadas por: Gobierno Regional de Cantabria.; 3 becas de 1000,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nf02e7bc14ea54173b580e42ae8c39cf0"/>
+    <uc:EnrollmentMonetaryAmount>2000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1035"/>
+    <uc:Preregistration>Del 14/07/2025 al 01/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4346c846d0634ac7a487b2912d8f6df9">
+    <vivo:start>2025-11-06T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64b7baa286204489a99e192d50eb6570">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-022</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Gaseros Del 12/11/2025 al 12/11/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Gaseros Del 04/02/2026 al 04/02/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Avanzada en Buques Gaseros Del 13/05/2026 al 13/05/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>1.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>45</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 30/10/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nae7f5e46f3214972aa10e1edfd2bc8fb"/>
+    <vivo:DateTimeInterval rdf:nodeID="Nca244b2c6c8642ffaa5fe3389fd2690e"/>
+    <vivo:DateTimeInterval rdf:nodeID="Ncb0b6d2bf68b41099d298983f8a18898"/>
+    <uc:EnrollmentMonetaryAmount>60.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/actualizacion-cursos.aspx"/>
+    <uc:Preregistration>Del 23/10/2025 al 27/10/2025</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-024  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-024</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Buques de Pasaje Del 15/05/2026 al 15/05/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Buques de Pasaje Del 14/11/2025 al 14/11/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Buques de Pasaje Del 06/02/2026 al 06/02/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>1.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>45</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/10/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N1d3d7e00d7fe4c4189d31ef74d40fc33"/>
+    <vivo:DateTimeInterval rdf:nodeID="N2504fda8602e4195a6ea689842fb49ec"/>
+    <vivo:DateTimeInterval rdf:nodeID="N89bea4aed224482fadcf61ae03eeb263"/>
+    <uc:EnrollmentMonetaryAmount>60.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/actualizacion-cursos.aspx"/>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/10/2025 al 27/10/2025</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/23-MC3-004  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>23-MC3-004</vivo:identifier>
+    <roh:title>Certificado en Microcredencial Universitaria en Dinámica de Fluidos Aplicada:Fundamentos de CFD para Ingenieros</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingenierías Química y Biomolecular</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>5.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>200</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 01/06/2025 al 08/09/2025</uc:Enrollment>
+    <uc:Grant>10 becas de 600,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N0279ed4253f146199fd99a7c8d7beae5"/>
+    <uc:EnrollmentMonetaryAmount>700.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1033"/>
+    <uc:Preregistration>Del 01/06/2025 al 08/09/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-MA3-023  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-MA3-023</vivo:identifier>
+    <roh:title>Máster Internacional de Formación Permanente UC-UIMP en Tecnología Rehabilitación y Gestión de la Edificación (Hibrido)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>30.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>30.00</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/10/2025 al 14/10/2025</uc:Enrollment>
+    <uc:Grant>12 becas de 2400,00 € financiadas por: Unidad Organizadora.; 3 becas de 3000,00 € financiadas por: Unidad Organizadora.; 1 beca de 4200,00 € financiada por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N543b4025e9aa44d3917f7f5ffad3bdf6"/>
+    <uc:EnrollmentMonetaryAmount>6000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 30/04/2025 al 07/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/42-MC3-016  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>42-MC3-016</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Ciberseguridad en Redes de Comunicaciones: Cómo Asegurar tus Comunicaciones a través de Internet</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Ingenieros Industriales y de Telecomunicación</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.50</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 16/09/2025 al 23/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="Nb4c93f0d8e8744d4b302673c9e6f628d"/>
+    <uc:EnrollmentMonetaryAmount>25.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=960"/>
+    <uc:Preregistration>Del 26/06/2025 al 12/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-023  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-023</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Básica en Buques Petroleros, Quimiqueros y Gaseros Del 10/11/2025 al 10/11/2025</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Básica en Buques Petroleros, Quimiqueros y Gaseros Del 02/02/2026 al 02/02/2026</roh:title>
+    <roh:title>Curso Universitario de Formación Permanente Actualización de Formación Básica en Buques Petroleros, Quimiqueros y Gaseros Del 11/05/2026 al 11/05/2026</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>1.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>45</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 30/10/2025 al 31/10/2025</uc:Enrollment>
+    <uc:Enrollment>Del 22/01/2026 al 23/01/2026</uc:Enrollment>
+    <uc:Enrollment>Del 30/04/2026 al 04/05/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N1a2958125cb940d98b965e58ee5dfd6b"/>
+    <vivo:DateTimeInterval rdf:nodeID="Nc7c7b43cff2c4ef68838e45e16bb7ae7"/>
+    <vivo:DateTimeInterval rdf:nodeID="N9139b16ef1a44600a506469eb4c0598d"/>
+    <uc:EnrollmentMonetaryAmount>75.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/actualizacion-cursos.aspx"/>
+    <uc:Preregistration>Del 23/10/2025 al 27/10/2025</uc:Preregistration>
+    <uc:Preregistration>Del 15/01/2026 al 19/01/2026</uc:Preregistration>
+    <uc:Preregistration>Del 23/04/2026 al 27/04/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/27-ES3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>27-ES3-022</vivo:identifier>
+    <roh:title>Diploma Universitario de Especialización en Derecho de Menores (Virtual)</roh:title>
+    <roh:AdministrativeEntity>Departamento de Derecho Privado                                                                                                                                                                         </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Especialización</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>16.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>14.00</uc:PracticalCredits>
+    <vivo:courseCredits>30.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/01/2026 al 30/01/2026</uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N722f720bf4024f8b8da7de303477ce5c"/>
+    <uc:EnrollmentMonetaryAmount>1175.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1043"/>
+    <uc:Preregistration>Del 01/07/2025 al 25/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/25-MC3-022  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>25-MC3-022</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Análisis de Datos y Business Intelligence con Power BI para Economistas</roh:title>
+    <roh:AdministrativeEntity>Departamento de Administración de Empresas                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>0.60</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.40</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/10/2025 al 03/11/2025</uc:Enrollment>
+    <uc:Grant>15 becas de 0,00 € financiadas por: Gobierno Regional de Cantabria.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N4027184aeb1e457f9b0dcedd78290b86"/>
+    <uc:EnrollmentMonetaryAmount>97.50</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=980"/>
+    <uc:Preregistration>Del 26/05/2025 al 26/10/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-013  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-013</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Gestión Empresarial, Emprendimiento e Internacionalización Del 19/02/2026 al 04/06/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 18/02/2026 al 18/02/2026</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N8b05d5e2c000474f96da66dfa96196fa"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 16/09/2025 al 16/02/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/41-FC3-021  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>41-FC3-021</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente en Capacitación para la Incorporación al Mundo Laboral.Programa de Formación para Personas con Discapacidad Intelectual, del Desarrollo y/o del Espectro Autista Del 06/10/2025 al 29/05/2026</roh:title>
+    <roh:AdministrativeEntity>Facultad de Educación                                                                                                                                                                                   </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>24.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>0.00</uc:PracticalCredits>
+    <vivo:courseCredits>24.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>18</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 25/09/2025 al 03/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N1c105133daf74dd1aaac506b73a4ea58"/>
+    <uc:EnrollmentMonetaryAmount>0.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/educacion/estudios-propios-facultad/capacitacion-para-la-incorporacion-al-mundo-laboral"/>
+    <uc:Preregistration>Del 13/06/2025 al 19/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/08-FC3-016  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>08-FC3-016</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Tecnología de Instalaciones y Cerramientos de Edificación Del 17/02/2026 al 02/06/2026</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingeniería Estructural y Mecánica                                                                                                                                                       </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>7.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>20</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 16/02/2026 al 16/02/2026</uc:Enrollment>
+    <uc:Grant>1 beca de 500,00 € financiada por: Unidad Organizadora.; 5 becas de 250,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N4fd0c98a39ab41a68921c78a842e490e"/>
+    <uc:EnrollmentMonetaryAmount>1000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://www.mastergted.unican.es/"/>
+    <uc:Preregistration>Del 16/09/2025 al 14/02/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/23-MC3-003  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>23-MC3-003</vivo:identifier>
+    <roh:title>Microcredencial Universitaria en Descarbonización, Economía Circular e Hidrógeno</roh:title>
+    <roh:AdministrativeEntity>Departamento de Ingenierías Química y Biomolecular</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Microcredencial Universitaria</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>4.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.00</uc:PracticalCredits>
+    <vivo:courseCredits>6.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 09/02/2026 al 20/02/2026</uc:Enrollment>
+    <uc:Grant>5 becas de 500,00 € financiadas por: Beca Servicio Cántabro de Empleo.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Ne9794cc85d5b4c2d9e7bc6767ca81db3"/>
+    <uc:EnrollmentMonetaryAmount>500.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/educacion/estudios-propios-uc/detalle-estudios-propios?e=645"/>
+    <uc:Preregistration>Del 01/09/2025 al 18/01/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e8e13c0a89e4ab2950ea2b0d3ee67b7">
+    <vivo:start>2026-01-31T00:00:00</vivo:start>
+    <vivo:end>2026-05-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d3d7e00d7fe4c4189d31ef74d40fc33">
+    <vivo:start>2026-05-15T00:00:00</vivo:start>
+    <vivo:end>2026-05-15T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na56aa6607c9e43b595780f6b1e508d05">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2026-08-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/99-EX3-014  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>99-EX3-014</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Protocolo y Gestión de Eventos</roh:title>
+    <roh:AdministrativeEntity>Escuela Universitaria de Turismo Altamira                                                                                                                                                               </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>3.50</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 29/09/2025 al 03/10/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N2345132ff61d4dffacbeb800ba7b808d"/>
+    <uc:EnrollmentMonetaryAmount>140.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://euturismoaltamira.com"/>
+    <uc:Preregistration>Del 02/06/2025 al 19/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N948e359b89844f1e997b1d47df318642">
+    <vivo:start>2025-09-30T00:00:00</vivo:start>
+    <vivo:end>2026-03-14T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne233a17b89ca4964bd6b51c7f0f42872">
+    <vivo:start>2025-10-06T00:00:00</vivo:start>
+    <vivo:end>2026-08-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-EX3-009  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-EX3-009</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Innovación y Creatividad: Capacidades Personales para el Diseño de Soluciones</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>5.42</uc:TheoreticalCredits>
+    <uc:PracticalCredits>14.67</uc:PracticalCredits>
+    <vivo:courseCredits>20.09</vivo:courseCredits>
+    <uc:NewStudentsPosts>100</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 15/09/2025 al 21/09/2025</uc:Enrollment>
+    <uc:Grant>5 becas de 122,50 € financiadas por: Unidad Organizadora.; 2 becas de 245,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N0badcdc855d2408ca19bd4d1d047030c"/>
+    <uc:EnrollmentMonetaryAmount>490.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://masterenemprendimiento.cise.es/experto-creatividad/"/>
+    <uc:Preregistration>Del 01/07/2025 al 05/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67cc4f27bdd14757944ad8d9da70c86c">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/45-FC3-018  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>45-FC3-018</vivo:identifier>
+    <roh:title>Curso Universitario de Formación Permanente Radar de Punteo Automático (ARPA) Del 24/11/2025 al 28/11/2025</roh:title>
+    <roh:AdministrativeEntity>Escuela Técnica Superior de Náutica                                                                                                                                                                     </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>1.20</uc:TheoreticalCredits>
+    <uc:PracticalCredits>1.80</uc:PracticalCredits>
+    <vivo:courseCredits>3.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>9</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 13/11/2025 al 14/11/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N8b3860a6f2524abaa494c0a14f67e434"/>
+    <uc:EnrollmentMonetaryAmount>394.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/centros/nautica/paginas/arpa.aspx"/>
+    <uc:Preregistration>Del 06/11/2025 al 10/11/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/41-FC3-024  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>41-FC3-024</vivo:identifier>
+    <roh:title>CERTIFICADO OFICIAL DE FORMACIÓN PEDAGÓGICA Y DIDÁCTICA EQUIVALENTE Del 02/10/2025 al 29/06/2026</roh:title>
+    <roh:AdministrativeEntity>Facultad de Educación                                                                                                                                                                                   </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Curso Universitario de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>25.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>19.00</uc:PracticalCredits>
+    <vivo:courseCredits>44.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 31/07/2025 al 12/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N13a37d49196d41c78198c187885a9e5d"/>
+    <uc:EnrollmentMonetaryAmount>677.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=1071"/>
+    <uc:Preregistration>Del 30/06/2025 al 25/07/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nebac83d4e6a340f1a2bc79fd442fc3bc">
+    <vivo:start>2025-10-16T00:00:00</vivo:start>
+    <vivo:end>2026-01-29T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2504fda8602e4195a6ea689842fb49ec">
+    <vivo:start>2025-11-14T00:00:00</vivo:start>
+    <vivo:end>2025-11-14T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c7f995287554159ba2e6ad8085cbba6">
+    <vivo:start>2026-03-14T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd32722982c7944fca73d7041a5fc83c3">
+    <vivo:start>2026-02-17T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/25-EX3-020  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>25-EX3-020</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Power BI Aplicado a la Gestión Empresarial</roh:title>
+    <roh:AdministrativeEntity>Departamento de Administración de Empresas                                                                                                                                                              </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>6.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>14.00</uc:PracticalCredits>
+    <vivo:courseCredits>20.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>40</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 26/05/2025 al 29/09/2025</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N948e359b89844f1e997b1d47df318642"/>
+    <uc:EnrollmentMonetaryAmount>1250.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=975"/>
+    <uc:Preregistration>Del 26/05/2025 al 29/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-EX3-007  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-EX3-007</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Especialista en Productos de Crédito Inmobiliario</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.50</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.50</uc:PracticalCredits>
+    <vivo:courseCredits>5.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>1000</uc:NewStudentsPosts>
+    <uc:Enrollment></uc:Enrollment>
+    <uc:Grant>99 becas de 100,00 € financiadas por: Unidad Organizadora.; 50 becas de 100,00 € financiadas por: Unidad Organizadora.; 99 becas de 35,00 € financiadas por: Unidad Organizadora.; 99 becas de 35,00 € financiadas por: Unidad Organizadora.; 99 becas de 35,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="N69a7d959a01d4b4db10f3d5169aec5b7"/>
+    <uc:EnrollmentMonetaryAmount>150.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://web.unican.es/estudios/estudios-propios/informacion-estudios-propios-de-posgrado/detalle-estudios-propios?e=997"/>
+    <uc:Preregistration></uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca89b00672bd49be8865dc96d752543a">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37701b77c02a400188308b8112de6ef3">
+    <vivo:start>2025-10-01T00:00:00</vivo:start>
+    <vivo:end>2025-11-12T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2e68ba408ec94430a62673a3fa69f078">
+    <vivo:start>2025-10-23T00:00:00</vivo:start>
+    <vivo:end>2026-04-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4c93f0d8e8744d4b302673c9e6f628d">
+    <vivo:start>2025-09-26T00:00:00</vivo:start>
+    <vivo:end>2025-12-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N676cdeb2eb5f4392bebdefffb1fbe7fe">
+    <vivo:start>2026-03-04T00:00:00</vivo:start>
+    <vivo:end>2026-04-22T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4fd0c98a39ab41a68921c78a842e490e">
+    <vivo:start>2026-02-17T00:00:00</vivo:start>
+    <vivo:end>2026-06-02T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c8e3d99f3714dc981bbf1c4032530c5">
+    <vivo:start>2026-02-03T00:00:00</vivo:start>
+    <vivo:end>2026-02-03T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/57-MA3-002  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>57-MA3-002</vivo:identifier>
+    <roh:title>Máster de Formación Permanente en Banca y Mercados Financieros (Edición México)</roh:title>
+    <roh:AdministrativeEntity>Santander Financial Institute (SANFI)</roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Máster de Formación Permanente</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>26.40</uc:TheoreticalCredits>
+    <uc:PracticalCredits>33.60</uc:PracticalCredits>
+    <vivo:courseCredits>60.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>35</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 22/09/2025 al 30/09/2025</uc:Enrollment>
+    <uc:Grant>2 becas de 9000,00 € financiadas por: Fundación UCEIF - AUIP.; 2 becas de 10000,00 € financiadas por: Unidad Organizadora.</uc:Grant>
+    <vivo:DateTimeInterval rdf:nodeID="Nd1c0601b169d416298cf93ea6689e8b8"/>
+    <uc:EnrollmentMonetaryAmount>19000.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://sanfi.es/master-banca-mexico/"/>
+    <uc:Preregistration>Del 01/07/2025 al 17/09/2025</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N13a37d49196d41c78198c187885a9e5d">
+    <vivo:start>2025-10-02T00:00:00</vivo:start>
+    <vivo:end>2026-06-29T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2e07dd67a53a433fac865603bb250d62">
+    <vivo:start>2025-10-02T00:00:00</vivo:start>
+    <vivo:end>2026-12-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nadc8e112638e468fa3d826470f1553ca">
+    <vivo:start>2026-02-23T00:00:00</vivo:start>
+    <vivo:end>2026-03-06T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc7c7b43cff2c4ef68838e45e16bb7ae7">
+    <vivo:start>2026-02-02T00:00:00</vivo:start>
+    <vivo:end>2026-02-02T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa05656276c94331be5068158130dbce">
+    <vivo:start>2025-11-06T00:00:00</vivo:start>
+    <vivo:end>2026-07-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b3860a6f2524abaa494c0a14f67e434">
+    <vivo:start>2025-11-24T00:00:00</vivo:start>
+    <vivo:end>2025-11-28T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nac1da4e8b44d4389bf9d68dd24fd6e0e">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2025-11-07T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca244b2c6c8642ffaa5fe3389fd2690e">
+    <vivo:start>2026-02-04T00:00:00</vivo:start>
+    <vivo:end>2026-02-04T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae7f5e46f3214972aa10e1edfd2bc8fb">
+    <vivo:start>2025-11-12T00:00:00</vivo:start>
+    <vivo:end>2025-11-12T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://uri.unican.es/estudio/propio/99-EX3-017  ">
+    <rdf:type rdf:resource="http://w3id.org/roh#AcademicDegree"/>
+    <vivo:identifier>99-EX3-017</vivo:identifier>
+    <roh:title>Diploma Universitario de Experto en Dirección de Personal en Hoteles y Empresas Turísticas</roh:title>
+    <roh:AdministrativeEntity>Escuela Universitaria de Turismo Altamira                                                                                                                                                               </roh:AdministrativeEntity>
+    <uc:TypeOfStudy>Diploma Universitario de Experto</uc:TypeOfStudy>
+    <uc:TheoreticalCredits>2.00</uc:TheoreticalCredits>
+    <uc:PracticalCredits>2.00</uc:PracticalCredits>
+    <vivo:courseCredits>4.00</vivo:courseCredits>
+    <uc:NewStudentsPosts>30</uc:NewStudentsPosts>
+    <uc:Enrollment>Del 16/02/2026 al 20/02/2026</uc:Enrollment>
+    <vivo:DateTimeInterval rdf:nodeID="N676cdeb2eb5f4392bebdefffb1fbe7fe"/>
+    <uc:EnrollmentMonetaryAmount>140.00</uc:EnrollmentMonetaryAmount>
+    <foaf1:homepage rdf:resource="https://euturismoaltamira.com"/>
+    <uc:Preregistration>Del 02/07/2025 al 06/02/2026</uc:Preregistration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f77c1b37cdc4671a84e692f0569541e">
+    <vivo:start>2025-10-07T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd55a085f30704a72bc1667340e5e6d0e">
+    <vivo:start>2025-09-15T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b05d5e2c000474f96da66dfa96196fa">
+    <vivo:start>2026-02-19T00:00:00</vivo:start>
+    <vivo:end>2026-06-04T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67b74ac2f90b4ff18781fcf90d539e72">
+    <vivo:start>2025-10-17T00:00:00</vivo:start>
+    <vivo:end>2026-03-21T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6039a688460144cba30071d7d80162e0">
+    <vivo:start>2025-10-15T00:00:00</vivo:start>
+    <vivo:end>2025-12-04T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3a9b38905acd44468169a148d48b69bc">
+    <vivo:start>2025-10-16T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne9794cc85d5b4c2d9e7bc6767ca81db3">
+    <vivo:start>2026-03-01T00:00:00</vivo:start>
+    <vivo:end>2026-05-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef8608692cfc4d9bbdb293e07840ae5d">
+    <vivo:start>2026-01-31T00:00:00</vivo:start>
+    <vivo:end>2026-02-27T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd750a2040d684c6e9f177308faf0ac9f">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N054dcf383c5f4a5f89fed09e15de4d97">
+    <vivo:start>2025-10-13T00:00:00</vivo:start>
+    <vivo:end>2025-10-24T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8ed1ff1b1d047c4ac6d980d6905bc08">
+    <vivo:start>2025-09-19T00:00:00</vivo:start>
+    <vivo:end>2025-11-07T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05d7c880375949e4b9bc760db746c884">
+    <vivo:start>2026-05-14T00:00:00</vivo:start>
+    <vivo:end>2026-05-14T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb169d85849748d182d9cb3b61d7866f">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-01-27T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb0b6d2bf68b41099d298983f8a18898">
+    <vivo:start>2026-05-13T00:00:00</vivo:start>
+    <vivo:end>2026-05-13T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6ada2f552f147c89c473b6a45d63a9e">
+    <vivo:start>2025-10-15T00:00:00</vivo:start>
+    <vivo:end>2026-01-28T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neddb0e2657294c328926c0b4d6996735">
+    <vivo:start>2025-11-03T00:00:00</vivo:start>
+    <vivo:end>2025-12-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ec1ff08365c40af9890d512049e0f0e">
+    <vivo:start>2025-10-16T00:00:00</vivo:start>
+    <vivo:end>2026-07-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4027184aeb1e457f9b0dcedd78290b86">
+    <vivo:start>2025-11-04T00:00:00</vivo:start>
+    <vivo:end>2025-12-19T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c0db35e9cf842a29d4c149ea242c40e">
+    <vivo:start>2025-10-27T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd2b00d16bdb94c2b8808cdbd12a95611">
+    <vivo:start>2025-09-15T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N732ab8f01cc84549bc9e8ec57d8e91d0">
+    <vivo:start>2026-01-09T00:00:00</vivo:start>
+    <vivo:end>2026-02-07T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6fb4592ebe0e431f9112a682009fa8c9">
+    <vivo:start>2025-10-23T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01918b9e1a4041ba9dc81124ef4a1e8d">
+    <vivo:start>2025-09-24T00:00:00</vivo:start>
+    <vivo:end>2026-09-11T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d724ea628b043368a3a44168ad537d8">
+    <vivo:start>2026-02-05T00:00:00</vivo:start>
+    <vivo:end>2026-02-05T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f71b0150b8e45b2a27f068545be77cd">
+    <vivo:start>2026-05-25T00:00:00</vivo:start>
+    <vivo:end>2026-05-29T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89bea4aed224482fadcf61ae03eeb263">
+    <vivo:start>2026-02-06T00:00:00</vivo:start>
+    <vivo:end>2026-02-06T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c86a7dd0c6547f986a77a3e923e34a4">
+    <vivo:start>2025-11-13T00:00:00</vivo:start>
+    <vivo:end>2025-11-13T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69a7d959a01d4b4db10f3d5169aec5b7">
+    <vivo:start>2026-01-02T00:00:00</vivo:start>
+    <vivo:end>2026-12-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0279ed4253f146199fd99a7c8d7beae5">
+    <vivo:start>2025-09-16T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0badcdc855d2408ca19bd4d1d047030c">
+    <vivo:start>2025-09-24T00:00:00</vivo:start>
+    <vivo:end>2025-12-19T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a5c51aef767491d81e76be2ee144061">
+    <vivo:start>2026-02-18T00:00:00</vivo:start>
+    <vivo:end>2026-06-03T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb03e238331134549bf424342b5411dbd">
+    <vivo:start>2025-10-27T00:00:00</vivo:start>
+    <vivo:end>2026-06-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2345132ff61d4dffacbeb800ba7b808d">
+    <vivo:start>2025-10-13T00:00:00</vivo:start>
+    <vivo:end>2025-12-16T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3e38b57f4c054b1bad4a077281c8429e">
+    <vivo:start>2026-01-09T00:00:00</vivo:start>
+    <vivo:end>2026-01-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a2958125cb940d98b965e58ee5dfd6b">
+    <vivo:start>2025-11-10T00:00:00</vivo:start>
+    <vivo:end>2025-11-10T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd183b9462f0a4daf88e05551d40e156a">
+    <vivo:start>2025-10-14T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc90ec44753f74fa4a224b8ce95bc2891">
+    <vivo:start>2026-01-27T00:00:00</vivo:start>
+    <vivo:end>2026-05-22T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf02e7bc14ea54173b580e42ae8c39cf0">
+    <vivo:start>2025-10-27T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N749b7b5417d544e69c86cec8fda8b745">
+    <vivo:start>2026-01-09T00:00:00</vivo:start>
+    <vivo:end>2026-01-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf496c17cbdf7441f9abb8f16078e70ea">
+    <vivo:start>2025-10-01T00:00:00</vivo:start>
+    <vivo:end>2026-06-05T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf37be46930e6433f8422bc82a3a3ec83">
+    <vivo:start>2026-05-29T00:00:00</vivo:start>
+    <vivo:end>2026-06-12T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97888744d1334a749105c87c9fe6c539">
+    <vivo:start>2026-03-14T00:00:00</vivo:start>
+    <vivo:end>2026-03-28T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef72e71c4562429b8d7c63a5a5e7d928">
+    <vivo:start>2026-04-24T00:00:00</vivo:start>
+    <vivo:end>2026-05-23T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7fee079466f04d77aa484237afb69b64">
+    <vivo:start>2025-11-06T00:00:00</vivo:start>
+    <vivo:end>2026-07-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67ce322bfa974947bdf1e86549c573b6">
+    <vivo:start>2026-05-12T00:00:00</vivo:start>
+    <vivo:end>2026-05-12T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68136eeac15a494a85b62ad0e76fd7ef">
+    <vivo:start>2025-10-15T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd09e7ad48dbf412fa070c32b6edca3d6">
+    <vivo:start>2025-09-29T00:00:00</vivo:start>
+    <vivo:end>2025-12-31T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8bdb061f8f34f93888f12e774c43682">
+    <vivo:start>2026-02-02T00:00:00</vivo:start>
+    <vivo:end>2026-02-06T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7b235c8b1b5a4a37903f8141b98d868e">
+    <vivo:start>2025-11-11T00:00:00</vivo:start>
+    <vivo:end>2025-11-11T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3750b09688e401d9a8fdcc3da70c3ec">
+    <vivo:start>2025-10-07T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74e2b6c71b5b47ab85f386b8563fc2a9">
+    <vivo:start>2025-10-01T00:00:00</vivo:start>
+    <vivo:end>2026-09-30T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43a7bc3900da46849445ab7f7050735b">
+    <vivo:start>2026-02-13T00:00:00</vivo:start>
+    <vivo:end>2026-03-13T00:00:00</vivo:end>
+  </rdf:Description>
+  <rdf:Description>
+    <rdf:value>ejemplo</rdf:value>
+  </rdf:Description>
+</rdf:RDF>
