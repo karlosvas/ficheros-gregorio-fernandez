@@ -63,10 +63,10 @@ public class ServletRDF extends HttpServlet {
             return;
         }
 
-        // Pasar los datos leídos a la JSP
-        request.setAttribute("resultadoDatos", datosLeidos);
-        request.setAttribute("tipo", "RDF");
-        request.getRequestDispatcher("AccesoDatos.jsp").forward(request, response);
+        // Guardar datos en sesión y redirigir 
+        request.getSession().setAttribute("resultadoDatos", datosLeidos);
+        request.getSession().setAttribute("tipo", "RDF");
+        response.sendRedirect("AccesoDatos.jsp");
     }
 
     private void escribirRDF(HttpServletRequest request, HttpServletResponse response, String contenidoExistente, String[] datos) throws ServletException, IOException {

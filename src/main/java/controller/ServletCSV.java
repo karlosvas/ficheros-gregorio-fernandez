@@ -71,10 +71,10 @@ public class ServletCSV extends HttpServlet {
             return;
         }
 
-        // Pasar los datos leídos a la JSP
-        request.setAttribute("resultadoDatos", datosLeidos);
-        request.setAttribute("tipo", "CSV");
-        request.getRequestDispatcher("AccesoDatos.jsp").forward(request, response);
+        // Guardar datos en sesión y redirigir
+        request.getSession().setAttribute("resultadoDatos", datosLeidos);
+        request.getSession().setAttribute("tipo", "CSV");
+        response.sendRedirect("AccesoDatos.jsp");
     }
 
     private void escribirCSV(HttpServletRequest request, HttpServletResponse response, String contenidoExistente, String[] datos) throws ServletException, IOException {

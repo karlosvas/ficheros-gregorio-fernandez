@@ -22,11 +22,20 @@
 </head>
 <body>
 
-    <h1>Datos procesados del formato: <%= request.getAttribute("tipo") != null ? request.getAttribute("tipo") : "Ninguno" %></h1>
+    <%
+        // Leer datos de la sesión
+        List<?> resultadoDatos = (List<?>) session.getAttribute("resultadoDatos");
+        String tipo = (String) session.getAttribute("tipo");
+
+        // Limpiar la sesión después de leer (importante para evitar datos obsoletos)
+        session.removeAttribute("resultadoDatos");
+        session.removeAttribute("tipo");
+    %>
+
+    <h1>Datos procesados del formato: <%= tipo != null ? tipo : "Ninguno" %></h1>
 
     <div class="caja-datos">
         <%
-            List<?> resultadoDatos = (List<?>) request.getAttribute("resultadoDatos");
             if (resultadoDatos == null || resultadoDatos.isEmpty()) {
         %>
                 No se han encontrado datos o hubo un error.

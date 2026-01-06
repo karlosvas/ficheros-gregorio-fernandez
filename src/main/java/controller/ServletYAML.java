@@ -96,10 +96,10 @@ public class ServletYAML extends HttpServlet {
             return;
         }
 
-        // Pasar los datos leídos a la JSP
-        request.setAttribute("resultadoDatos", datosLeidos);
-        request.setAttribute("tipo", "YAML");
-        request.getRequestDispatcher("AccesoDatos.jsp").forward(request, response);
+        // Guardar datos en sesión y redirigir
+        request.getSession().setAttribute("resultadoDatos", datosLeidos);
+        request.getSession().setAttribute("tipo", "YAML");
+        response.sendRedirect("AccesoDatos.jsp");
     }
 
     private void escribirYAML(HttpServletRequest request, HttpServletResponse response, 
