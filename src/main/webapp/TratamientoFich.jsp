@@ -117,6 +117,7 @@ request.getAttribute("mensajeError"); %>
       </div>
       <br />
       <input type="submit" value="Enviar" />
+       <input type="reset" value="Borrar Formulario" />
       <br />
       <% if (error != null) { %>
       <p style="color: red; font-weight: bold; margin-top: 15px"><%= error %></p>
