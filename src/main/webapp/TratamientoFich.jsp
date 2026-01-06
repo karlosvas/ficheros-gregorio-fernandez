@@ -57,6 +57,7 @@ request.getAttribute("mensajeError"); %>
                   <option value="json">JSON</option>
                   <option value="xml">XML</option>
                   <option value="rdf">RDF</option>
+                  <option value="yaml">YAML</option>
                 </select>
               </td>
             </tr>
