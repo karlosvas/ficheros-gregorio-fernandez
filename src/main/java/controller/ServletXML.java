@@ -18,134 +18,137 @@ import jakarta.servlet.http.Part;
 @WebServlet("/ServletXML")
 public class ServletXML extends HttpServlet {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+		String accion = (String) request.getAttribute("accion");
+		Part filePart = (Part) request.getAttribute("filePart");
+		String[] datos = (String[]) request.getAttribute("datos");
 
-        String accion = (String) request.getAttribute("accion");
-        Part filePart = (Part) request.getAttribute("filePart");
-        String[] datos = (String[]) request.getAttribute("datos");
+		// Saca el xml si hay
+		String contenidoArchivo = leerContenidoArchivo(filePart);
 
-        // Saca el xml si hay
-        String contenidoArchivo = leerContenidoArchivo(filePart);
+		// Ejecuta leer o escribir
+		if ("leer".equals(accion)) {
+			procesarLecturaXML(request, response, contenidoArchivo);
+		} else if ("escribir".equals(accion)) {
+			procesarEscrituraXML(request, response, contenidoArchivo, datos);
+		}
+	}
 
-        // Ejecuta leer o escribir
-        if ("leer".equals(accion)) {
-            procesarLecturaXML(request, response, contenidoArchivo);
-        } else if ("escribir".equals(accion)) {
-            procesarEscrituraXML(request, response, contenidoArchivo, datos);
-        }
-    }
+	private String leerContenidoArchivo(Part filePart) throws IOException {
+		String contenido = "";
 
-    private String leerContenidoArchivo(Part filePart) throws IOException {
-        String contenido = "";
+		if (filePart != null) {
+			try (InputStream is = filePart.getInputStream();
+					BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
 
-        if (filePart != null) {
-            try (InputStream is = filePart.getInputStream();
-                 BufferedReader reader = new BufferedReader(
-                         new InputStreamReader(is, StandardCharsets.UTF_8))) {
+				StringBuilder sb = new StringBuilder();
+				String linea;
+				while ((linea = reader.readLine()) != null) {
+					sb.append(linea).append("\n");
+				}
+				contenido = sb.toString();
+			}
+		}
 
-                StringBuilder sb = new StringBuilder();
-                String linea;
-                while ((linea = reader.readLine()) != null) {
-                    sb.append(linea).append("\n");
-                }
-                contenido = sb.toString();
-            }
-        }
+		return contenido;
+	}
 
-        return contenido;
-    }
+	private void procesarLecturaXML(HttpServletRequest request, HttpServletResponse response, String contenido)
+			throws ServletException, IOException {
+		List<String> datosLeidos = new ArrayList<>();
 
- 
-    private void procesarLecturaXML(HttpServletRequest request,
-                                    HttpServletResponse response,
-                                    String contenido)
-            throws ServletException, IOException {
+		// Extrae todos los nodos con contenido textual
+		String[] lineas = contenido.split("\n");
+		for (String linea : lineas) {
+			linea = linea.trim();
 
-        List<String> datosLeidos = new ArrayList<>();
+			// Busca cualquier tag con contenido: <tag>contenido</tag>
+			if (linea.matches("^<[^/>]+>[^<]+</[^>]+>$")) {
+				// Extrae el nombre del tag y su contenido
+				int inicioTag = linea.indexOf('>');
+				int finContenido = linea.lastIndexOf('<');
 
-        // Busca el contenido con la etiqueta dato
-        for (String linea : contenido.split("\n")) {
-            linea = linea.trim();
+				if (inicioTag != -1 && finContenido > inicioTag) {
+					String nombreTag = linea.substring(1, inicioTag);
+					String contenidoTag = linea.substring(inicioTag + 1, finContenido).trim();
 
-            if (linea.startsWith("<dato>") && linea.endsWith("</dato>")) {
-                String valor = linea.replace("<dato>", "")
-                                     .replace("</dato>", "")
-                                     .trim();
-                datosLeidos.add(valor);
-            }
-        }
+					if (!contenidoTag.isEmpty()) {
+						datosLeidos.add(nombreTag + ": " + contenidoTag);
+					}
+				}
+			}
+		}
 
-        // Control de error por si no hay datos validos
-        if (datosLeidos.isEmpty()) {
-            request.setAttribute("tipoError", "El archivo XML no contiene datos válidos.");
-            request.getRequestDispatcher("Error.jsp").forward(request, response);
-            return;
-        }
+		if (datosLeidos.isEmpty()) {
+			request.setAttribute("tipoError", "El archivo XML no contiene elementos con datos válidos.");
+			request.getRequestDispatcher("Error.jsp").forward(request, response);
+			return;
+		}
 
-        // Manda datos a vista
-        request.setAttribute("resultadoDatos", datosLeidos);
-        request.setAttribute("tipo", "XML");
-        request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
-    }
+		request.getSession().setAttribute("resultadoDatos", datosLeidos);
+		request.getSession().setAttribute("tipo", "XML");
+		response.sendRedirect("AccesoDatos.jsp");
+	}
 
-  
-    private void procesarEscrituraXML(HttpServletRequest request,
-                                      HttpServletResponse response,
-                                      String contenidoExistente,
-                                      String[] datos)
-            throws ServletException, IOException {
+	private void procesarEscrituraXML(HttpServletRequest request, HttpServletResponse response,
+			String contenidoExistente, String[] datos) throws ServletException, IOException {
 
-        List<String> datosValidos = new ArrayList<>();
+		List<String> datosValidos = new ArrayList<>();
 
-        // Filtra vacios
-        if (datos != null) {
-            for (String dato : datos) {
-                if (dato != null && !dato.trim().isEmpty()) {
-                    datosValidos.add(dato.trim());
-                }
-            }
-        }
+		// Filtra vacíos
+		if (datos != null) {
+			for (String dato : datos) {
+				if (dato != null && !dato.trim().isEmpty()) {
+					datosValidos.add(dato.trim());
+				}
+			}
+		}
 
-        // Si hay null en escribir, da error
-        if (datosValidos.isEmpty()) {
-            request.setAttribute("mensajeError", "(*) No hay datos para escribir.");
-            request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
-            return;
-        }
+		if (datosValidos.isEmpty()) {
+			request.setAttribute("mensajeError", "(*) No hay datos para escribir.");
+			request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
+			return;
+		}
 
-        // Crea nodos xml
-        StringBuilder nuevosDatos = new StringBuilder();
-        for (String dato : datosValidos) {
-            nuevosDatos.append("  <dato>")
-                       .append(dato)
-                       .append("</dato>\n");
-        }
+		// Crea nodos XML para los nuevos datos
+		StringBuilder nuevosDatos = new StringBuilder();
+		for (String dato : datosValidos) {
+			nuevosDatos.append("  <dato>").append(dato).append("</dato>\n");
+		}
 
-        String contenidoFinal;
-        int posicionCierre = contenidoExistente.lastIndexOf("</datos>");
+		String contenidoFinal;
 
-        // Añade datos xml o crea si no hay
-        if (posicionCierre != -1) {
-            contenidoFinal = contenidoExistente.substring(0, posicionCierre)
-                    + nuevosDatos
-                    + contenidoExistente.substring(posicionCierre);
-        } else {
-            contenidoFinal =
-                    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-                    "<datos>\n" +
-                    nuevosDatos +
-                    "</datos>";
-        }
+		// Si hay contenido existente, lo preserva y añade
+		if (contenidoExistente != null && !contenidoExistente.trim().isEmpty()) {
+			// Detecta el tag raíz de cierre (puede ser </datos>, </entities>, etc.)
+			int ultimoCierre = contenidoExistente.lastIndexOf("</");
 
-        // Descarga el xml
-        response.setContentType("application/xml");
-        response.setHeader("Content-Disposition", "attachment; filename=\"new_data.xml\"");
-        response.setCharacterEncoding("UTF-8");
-        response.getWriter().write(contenidoFinal);
-    }
+			if (ultimoCierre != -1) {
+				// Encuentra el nombre completo del tag de cierre
+				int finTag = contenidoExistente.indexOf(">", ultimoCierre);
+				String tagCierre = contenidoExistente.substring(ultimoCierre, finTag + 1);
+
+				// Inserta los nuevos datos antes del tag de cierre
+				contenidoFinal = contenidoExistente.substring(0, ultimoCierre) + nuevosDatos + tagCierre;
+			} else {
+				// Si no hay tag de cierre válido, envuelve todo
+				contenidoFinal = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<datos>\n" + contenidoExistente
+						+ nuevosDatos + "</datos>";
+			}
+		} else {
+			// Si no hay contenido previo, crea estructura nueva
+			contenidoFinal = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<datos>\n" + nuevosDatos + "</datos>";
+		}
+
+		// Descarga el XML
+		response.setContentType("application/xml");
+		response.setHeader("Content-Disposition", "attachment; filename=\"new_data.xml\"");
+		response.setCharacterEncoding("UTF-8");
+		response.getWriter().write(contenidoFinal);
+	}
 }
