@@ -52,6 +52,7 @@ request.getAttribute("mensajeError"); %>
               <td><label>Formato del fichero:</label></td>
               <td>
                 <select name="tipoFichero">
+                  <option value="">-- Selecciona un formato --</option>
                   <option value="xls">XLS</option>
                   <option value="csv">CSV</option>
                   <option value="json">JSON</option>
