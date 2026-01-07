@@ -1,12 +1,18 @@
 package controller;
 
-import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -18,66 +24,80 @@ import jakarta.servlet.http.Part;
 public class ServletXLS extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // Cogemos los datos que nos pasa el primer Servlet (ServletFich)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         String accion = (String) request.getAttribute("accion");
         Part filePart = (Part) request.getAttribute("filePart");
         String[] datos = (String[]) request.getAttribute("datos");
 
-        // Guardamos todo lo que tiene el archivo en un string
-        String contenidoArchivo = "";
-        
-        if (filePart != null) {
-            // Leemos el archivo línea por línea
-            try (InputStream is = filePart.getInputStream();
-                 BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
-                StringBuilder sb = new StringBuilder();
-                String linea;
-                while ((linea = reader.readLine()) != null) {
-                    sb.append(linea).append("\n");
-                }
-                contenidoArchivo = sb.toString();
-            }
-        }
-
-        // Miramos si el usuario quiere leer o escribir
         if ("leer".equals(accion)) {
-            leerXLS(request, response, contenidoArchivo);
+            leerXLS(request, response, filePart);
         } else if ("escribir".equals(accion)) {
-            escribirXLS(request, response, contenidoArchivo, datos);
+            escribirXLS(request, response, filePart, datos);
         }
     }
 
-    private void leerXLS(HttpServletRequest request, HttpServletResponse response, String contenido) throws ServletException, IOException {
-        // Lista para guardar las frases o datos que encontremos
+    private void leerXLS(HttpServletRequest request, HttpServletResponse response, Part filePart)
+            throws ServletException, IOException {
         List<String> datosLeidos = new ArrayList<>();
 
-        if (contenido != null && !contenido.isEmpty()) {
-            // Partimos el texto por líneas
-            for (String linea : contenido.split("\n")) {
-                linea = linea.trim();
-                // Si la línea no está vacía, la guardamos
-                if (!linea.isEmpty()) {
-                    datosLeidos.add(linea);
-                }
-            }
-        }
-
-        // Si al final no hemos podido leer nada, mandamos un error
-        if (datosLeidos.isEmpty()) {
-            request.setAttribute("tipoError", "El archivo XLS no tiene datos que podamos leer.");
+        if (filePart == null || filePart.getSize() == 0) {
+            request.setAttribute("tipoError", "No se ha subido ningún archivo.");
             request.getRequestDispatcher("Error.jsp").forward(request, response);
             return;
         }
 
-        // Si todo va bien, mandamos los datos a la página de resultados
-        request.setAttribute("resultadoDatos", datosLeidos);
-        request.setAttribute("tipo", "XLS");
+        byte[] fileContent;
+        try (InputStream is = filePart.getInputStream()) {
+            fileContent = is.readAllBytes();
+        }
+
+        try (InputStream is = new ByteArrayInputStream(fileContent);
+             Workbook workbook = new HSSFWorkbook(is)) {
+
+            for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+                Sheet sheet = workbook.getSheetAt(i);
+
+                for (Row row : sheet) {
+                    StringBuilder filaTexto = new StringBuilder();
+
+                    for (Cell cell : row) {
+                        String valor = obtenerValorCelda(cell);
+                        if (!valor.isEmpty()) {
+                            if (filaTexto.length() > 0) {
+                                filaTexto.append(" | ");
+                            }
+                            filaTexto.append(valor);
+                        }
+                    }
+
+                    if (filaTexto.length() > 0) {
+                        datosLeidos.add(filaTexto.toString());
+                    }
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            request.setAttribute("tipoError", "Error al leer el archivo XLS: " + e.getMessage());
+            request.getRequestDispatcher("Error.jsp").forward(request, response);
+            return;
+        }
+
+        if (datosLeidos.isEmpty()) {
+            request.setAttribute("tipoError", "El archivo XLS no tiene datos.");
+            request.getRequestDispatcher("Error.jsp").forward(request, response);
+            return;
+        }
+
+        request.getSession().setAttribute("resultadoDatos", datosLeidos);
+        request.getSession().setAttribute("tipo", "XLS");
         request.getRequestDispatcher("AccesoDatos.jsp").forward(request, response);
     }
 
-    private void escribirXLS(HttpServletRequest request, HttpServletResponse response, String contenidoExistente, String[] datos) throws ServletException, IOException {
-        // Lista para limpiar los huecos vacíos del formulario
+    private void escribirXLS(HttpServletRequest request, HttpServletResponse response,
+            Part filePart, String[] datos) throws ServletException, IOException {
+
         List<String> datosValidos = new ArrayList<>();
         if (datos != null) {
             for (String d : datos) {
@@ -87,32 +107,71 @@ public class ServletXLS extends HttpServlet {
             }
         }
 
-        // Si no han escrito nada en los cuadritos, avisamos
         if (datosValidos.isEmpty()) {
             request.setAttribute("mensajeError", "(*) Tienes que escribir algo para poder guardarlo.");
             request.getRequestDispatcher("TratamientoFich.jsp").forward(request, response);
             return;
         }
 
-        // Juntamos lo que ya había en el archivo con lo nuevo
-        StringBuilder contenidoFinal = new StringBuilder(contenidoExistente);
-        
-        // Si el archivo ya tenía algo y no termina en salto de línea, se lo ponemos
-        if (contenidoExistente.length() > 0 && !contenidoExistente.endsWith("\n")) {
-            contenidoFinal.append("\n");
+        Workbook workbook;
+        Sheet sheet;
+        int ultimaFila = 0;
+
+        if (filePart != null && filePart.getSize() > 0) {
+            byte[] fileContent;
+            try (InputStream is = filePart.getInputStream()) {
+                fileContent = is.readAllBytes();
+            }
+
+            try (InputStream is = new ByteArrayInputStream(fileContent)) {
+                workbook = new HSSFWorkbook(is);
+                sheet = workbook.getSheetAt(0);
+                ultimaFila = sheet.getLastRowNum() + 1;
+            } catch (Exception e) {
+                workbook = new HSSFWorkbook();
+                sheet = workbook.createSheet("Datos");
+            }
+        } else {
+            workbook = new HSSFWorkbook();
+            sheet = workbook.createSheet("Datos");
         }
 
-        // Añadimos cada dato nuevo en una línea diferente
-        for (String nuevoDato : datosValidos) {
-            contenidoFinal.append(nuevoDato).append("\n");
+        for (String dato : datosValidos) {
+            Row row = sheet.createRow(ultimaFila++);
+            Cell cell = row.createCell(0);
+            cell.setCellValue(dato);
         }
 
-        // Preparamos la respuesta para que el navegador descargue el archivo
+        sheet.autoSizeColumn(0);
+
         response.setContentType("application/vnd.ms-excel");
         response.setHeader("Content-Disposition", "attachment; filename=\"nuevo_fichero.xls\"");
-        response.setCharacterEncoding("UTF-8");
-        
-        // Escribimos el contenido en el archivo de descarga
-        response.getWriter().write(contenidoFinal.toString());
+
+        workbook.write(response.getOutputStream());
+        workbook.close();
+    }
+
+    private String obtenerValorCelda(Cell cell) {
+        if (cell == null) return "";
+
+        CellType tipo = cell.getCellType();
+        if (tipo == CellType.FORMULA) {
+            tipo = cell.getCachedFormulaResultType();
+        }
+
+        switch (tipo) {
+            case STRING:
+                return cell.getStringCellValue().trim();
+            case NUMERIC:
+                double valor = cell.getNumericCellValue();
+                if (valor == Math.floor(valor)) {
+                    return String.valueOf((long) valor);
+                }
+                return String.valueOf(valor);
+            case BOOLEAN:
+                return String.valueOf(cell.getBooleanCellValue());
+            default:
+                return "";
+        }
     }
 }

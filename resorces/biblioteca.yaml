@@ -1,0 +1,99 @@
+# Datos Abiertos - Bibliotecas Públicas de Madrid
+# Fuente: Portal de Datos Abiertos del Ayuntamiento de Madrid
+
+metadata:
+  titulo: "Catálogo de Bibliotecas Públicas"
+  descripcion: "Listado de bibliotecas públicas de la Comunidad de Madrid"
+  fecha_actualizacion: "2026-01-07"
+  licencia: "Creative Commons BY 4.0"
+  fuente: "Ayuntamiento de Madrid"
+  
+bibliotecas:
+  - id: 1
+    nombre: "Biblioteca Eugenio Trías"
+    tipo: "Biblioteca Pública"
+    direccion:
+      calle: "Paseo de Fernán Núñez, 24"
+      codigo_postal: "28009"
+      ciudad: "Madrid"
+      distrito: "Retiro"
+    coordenadas:
+      latitud: 40.4153
+      longitud: -3.6846
+    contacto:
+      telefono: "+34 915 887 071"
+      email: "bibliotecaeugeniotrias@madrid.org"
+      web: "https://www.madrid.es/bibliotecas"
+    horario:
+      lunes_viernes: "09:00-21:00"
+      sabado: "09:00-14:00"
+      domingo: "Cerrado"
+    servicios:
+      - "Préstamo de libros"
+      - "Sala de lectura"
+      - "WiFi gratuito"
+      - "Acceso a ordenadores"
+      - "Actividades culturales"
+    accesible: true
+    año_apertura: 2013
+
+  - id: 2
+    nombre: "Biblioteca Miguel de Cervantes"
+    tipo: "Biblioteca Pública"
+    direccion:
+      calle: "Calle de Abtao, 2"
+      codigo_postal: "28007"
+      ciudad: "Madrid"
+      distrito: "Chamberí"
+    coordenadas:
+      latitud: 40.4328
+      longitud: -3.7076
+    contacto:
+      telefono: "+34 914 454 828"
+      email: "bibliocervantes@madrid.org"
+      web: "https://www.madrid.es/bibliotecas"
+    horario:
+      lunes_viernes: "08:30-21:00"
+      sabado: "09:00-14:00"
+      domingo: "Cerrado"
+    servicios:
+      - "Préstamo de libros"
+      - "Hemeroteca"
+      - "Sala infantil"
+      - "WiFi gratuito"
+    accesible: true
+    año_apertura: 1998
+
+  - id: 3
+    nombre: "Biblioteca Mario Vargas Llosa"
+    tipo: "Biblioteca Pública"
+    direccion:
+      calle: "Calle de Villaamil, 32"
+      codigo_postal: "28039"
+      ciudad: "Madrid"
+      distrito: "Tetuán"
+    coordenadas:
+      latitud: 40.4789
+      longitud: -3.6989
+    contacto:
+      telefono: "+34 914 800 584"
+      email: "bibliomvargasllosa@madrid.org"
+      web: "https://www.madrid.es/bibliotecas"
+    horario:
+      lunes_viernes: "09:00-21:00"
+      sabado: "09:00-14:00"
+      domingo: "Cerrado"
+    servicios:
+      - "Préstamo de libros"
+      - "Sala de estudio"
+      - "Club de lectura"
+      - "WiFi gratuito"
+      - "Cursos y talleres"
+    accesible: true
+    año_apertura: 2019
+
+estadisticas:
+  total_bibliotecas: 3
+  distritos_cubiertos: 3
+  visitantes_anuales: 450000
+  libros_prestados_2025: 125000
