@@ -19,6 +19,12 @@ public class ServletFich extends HttpServlet {
         super();
     }
 
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.sendRedirect("TratamientoFich.jsp");
+    }
+    
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Saber que accion se va a realizar (leer o escribir)
 		String accion = request.getParameter("accion");
@@ -94,7 +100,7 @@ public class ServletFich extends HttpServlet {
         request.setAttribute("nombreArchivo", nombreArchivo);
         request.setAttribute("datos", datos);
 
-        String selectedServlet = String.format("Servlet%s", tipoSeleccionado.toUpperCase());
+        String selectedServlet = String.format("/Servlet%s", tipoSeleccionado.toUpperCase());
 		request.getRequestDispatcher(selectedServlet).forward(request, response);
 
 	}
